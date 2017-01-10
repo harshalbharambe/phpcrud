@@ -53,7 +53,7 @@
 ?>
 <html>
 	<head>
-	<title>PHP CRUD with Search and Pagination</title>
+	<title>PHP CRUD with Search and Pagination-2</title>
 	<link href="style.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
