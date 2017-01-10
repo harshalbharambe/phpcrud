@@ -57,7 +57,7 @@
 	<link href="style.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<h2>PHP CRUD with Search and Pagination</h2>
+		<h2>PHP CRUD with Search and Pagination-2</h2>
 		<div style="text-align:right;margin:20px 0px 10px;">
 		<a id="btnAddAction" href="add.php">Add New</a>
 		</div>
