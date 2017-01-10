@@ -1,9 +1,9 @@
 <?php
 class DBController {
-	private $host = "localhost";
-	private $user = "root";
-	private $password = "";
-	private $database = "phppot_examples";
+	private $host = process.env.OPENSHIFT_MYSQL_DB_HOST;
+	private $user = process.env.OPENSHIFT_MYSQL_DB_USERNAME;
+	private $password = process.env.OPENSHIFT_MYSQL_DB_PASSWORD;
+	private $database = "phpcrud";
 	
 	function __construct() {
 		$conn = $this->connectDB();
