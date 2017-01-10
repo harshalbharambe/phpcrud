@@ -1,8 +1,8 @@
 <?php
 class DBController {
-	private $host = process.env.OPENSHIFT_MYSQL_DB_HOST;
-	private $user = process.env.OPENSHIFT_MYSQL_DB_USERNAME;
-	private $password = process.env.OPENSHIFT_MYSQL_DB_PASSWORD;
+	private $host = $src['OPENSHIFT_MYSQL_DB_HOST'];
+	private $user = $src['OPENSHIFT_MYSQL_DB_USERNAME'];
+	private $password = $src['OPENSHIFT_MYSQL_DB_PASSWORD'];
 	private $database = "phpcrud";
 	
 	function __construct() {
